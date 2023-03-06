@@ -1,0 +1,7 @@
+version: "3"
+services:
+  nps:
+    image: ffdfgdfg/nps
+    network_mode: "host"
+    volumes:
+      - ./conf:/nps/conf
